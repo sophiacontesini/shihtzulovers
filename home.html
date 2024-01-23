@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Shih-tzu Lovers</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgb(255,218,147);
+            color: #96130f;  
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #eee;
+          
+        }
+        nav a {
+            text-decoration: none;
+            color: #96130f;  
+            font-weight: 300;
+            font-size: larger;
+        }
+
+        nav a:hover{
+            font-weight: 500;
+            color: #96130f;
+        }
+
+        .menu a {
+            text-decoration: none;
+            font-weight: 500;
+            color: #96130f;  
+            padding: 10px;
+        }
+        .menu :hover {
+        font-weight: 700;
+        color: #96130f;
+        }
+        header a {
+            color: #96130f;  
+            text-decoration: none; 
+            padding: 10px;
+            font-weight: 700;
+        }
+        header a:hover  {
+        font-weight: 800;
+        color: #96130f;
+        }
+
+        section {
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+        }
+
+        .lateral-menu {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            background-color: #f0f0f0;
+        }
+
+        .lateral-menu a {
+            text-decoration: none;
+            color: #96130f;  
+            padding: 10px;
+            font-weight: 500;
+            border-bottom: 1px solid #ccc;
+        }
+        .lateral-menu a:hover {
+            font-weight: 700;
+            color: #96130f;  
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        .content p {
+            width: 1000px;
+            padding: 20px;
+            text-align: justify;
+            margin-left: 180px;
+            color: #96130f;  
+            font-weight: 500;
+            font-size: large;
+            margin-top: -25px;
+        }
+        .content h1 {
+            color: #96130f;  
+
+        }
+
+        .large-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .right-menu {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            background-color: #f0f0f0;
+        }
+
+        .right-menu a {
+            text-decoration: none;
+            color: #96130f; 
+            font-weight: 500;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .right-menu a:hover {
+        font-weight: 700;
+        color: #96130f;  
+        }
+
+        footer {
+            background-color: rgb(255,218,147);
+            color: #96130f;  
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+        header input[type="text"] {
+            padding: 8px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 300px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shih-tzu Lovers</h1>
+        <div class="menu">
+            <a href="/home.html">Home</a>
+            <a href="/sobre.html">Sobre Nós</a>
+            <a href="/contato.html">Contato</a>
+            <input type="text" placeholder="Pesquisar">
+        </div>
+    </header>
+
+    <nav>
+        <a href="#section1">Fotos</a>
+        <a href="#section2">Vídeos</a>
+        <a href="#section3">Animações</a>
+        <a href="#section4">Gifs</a>
+    </nav>
+  
+
+    <section id="section1">
+        <div class="lateral-menu">
+            <a href="#">Perfil</a>
+            <a href="#">Novidades</a>
+            <a href="#">Artigos</a>
+            <a href="#">Youtube</a>
+            <a href="#">Utilidades</a>
+            <a href="#">Configurações</a>
+          
+        </div>
+        <div class="content">
+            <img src="https://img.freepik.com/vetores-premium/cao-fofo-shih-tzu-cachorro-sentado-vetor-desenho-animado_417072-6.jpg" alt="shihtzu" class="large-image">
+            <h1> Tudo sobre o seu:
+                Shih Tzu</h1>
+            <p> 
+                Focinho achatado, olhos amendoados um pouco saltados e personalidade marcante: este é o Shih Tzu! Conhecidos por serem muito companheiros, os Shih Tzus não são cães de caça ou esportistas, o propósito de suas vidas é amar e ser amado pelos seus pais humanos, servindo como um incrível cão de companhia. Sempre prontos para receber carinho, são muito dóceis e amigáveis com crianças e outros cães. Definitivamente eles são cachorros de ambientes internos e se adaptam muito bem a apartamentos por serem pequenos e não precisarem de muito espaço para se movimentar, porém, isso não exclui a necessidade de exercícios físicos regulares. Os Shih Tzus se adaptam muito bem a diferentes “tipos de tutores”, quando você quiser caminhar eles estarão ao seu lado, ou, quando quiser tirar uma soneca, também estarão, como sempre fizeram desde que surgiram.</p>
+        </div>
+        <div class="right-menu">
+            <a href="#">Tudo sobre Shi-tzu</a>
+            <a href="#">Dicas</a>
+            <a href="#">Tutor nota 10</a>
+            <a href="#">Memes</a>
+            <a href="#">Como cuidar do seu shihtzu</a>
+            <a href="#">Alimentação</a>
+            <a href="#">Passeios</a>
+            <a href="#">Transporte</a>
+            <a href="#">Viagem segura</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Shih-tzu Lovers. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>

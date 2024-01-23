@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Dosis:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Contato</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgb(255,218,147);
+            color: #96130f;  
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #eee;
+
+           
+        }
+        nav a {
+            text-decoration: none;
+            color: #96130f;  
+            font-weight: 300;
+            font-size: larger;
+        }
+
+        nav a:hover{
+            font-weight: 500;
+            color: #96130f;
+        }
+        .menu a {
+            text-decoration: none;
+            font-weight: 500;
+            color: #96130f;  
+            padding: 10px;
+        }
+        .menu :hover {
+        font-weight: 700;
+        color: #96130f;
+        }
+
+        section {
+            display: flex;
+            padding: 20px;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+
+        .contact-form {
+            padding: 20px;
+            background-color:#eee;  
+            color: #96130f;  
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+           
+        }
+    
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            width: 700px;
+         
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 10px;
+            width: 500px;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color:#96130f;
+            width: 200px;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .social-icons {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-right: 20px;
+            color: #96130f;  
+            margin-top: 80px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #96130f;  
+            padding: 10px;
+        }
+
+        footer {
+            background-color: rgb(255,218,147);
+            color: #96130f;  
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        header input[type="text"] {
+            padding: 8px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 300px;
+            
+        }
+       
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Shih-tzu Lovers</h1>
+        <div class="menu">
+            <a href="/home.html">Home</a>
+            <a href="/sobre.html">Sobre Nós</a>
+            <a href="/contato.html">Contato</a>
+            <input type="text" placeholder="Pesquisar">
+        </div>
+    
+    </header>
+    <nav>
+        <a href="#section1">Fotos</a>
+        <a href="#section2">Vídeos</a>
+        <a href="#section3">Animações</a>
+        <a href="#section4">Gifs</a>
+    </nav>
+
+    <section>
+        <div class="social-icons">
+            <h2>Siga-nos</h2>
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+
+        <div class="contact-form">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Shih-tzu Lovers. Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
